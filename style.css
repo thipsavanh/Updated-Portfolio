@@ -1,0 +1,132 @@
+.topnav {
+    background-color:rgb(240, 212, 196);
+    overflow: hidden;
+    border-bottom: 10px solid rgb(197, 124, 136) ;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(197, 124, 136);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  .topnav a:hover {
+    background-color:ghostwhite;
+    color:rgb(197, 124, 136) ;
+  }
+  
+  
+  .topnav a.active {
+    background-color: rgb(240, 212, 196);
+    color:rgb(197, 124, 136);
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+.wholebody{
+    background-image: url(../images/sakura.png);
+    font-family: 'Laila', serif;
+    height: max-content;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+.jumbotron.jumbotron-fluid{
+    color: white;
+    background-color: rgb(247, 186, 150);
+    border-bottom: 10px solid rgb(197, 124, 136) ;
+}
+
+.form-group{
+  padding: 20px;
+}
+
+.display-4{
+    margin-top: 30px;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.col-sm{
+    justify-content: center ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    color:rgb(119, 119, 119);  
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    color: rgb(119, 119, 119);
+    background-color: white;
+    border-color: rgb(119, 119, 119);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer, .push{
+    background-color:rgb(247, 186, 150) ;
+    height: 80px;
+}
+
+.footer{
+    border-top: 10px solid rgb(197, 124, 136);
+}
+
+.contacts{
+    color:rgb(119, 119, 119) ;
+
+}
+
+a.btn.btn-primary{
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a.btn.btn-primary:hover{
+    background-color:rgb(197, 124, 136) ;
+}
+
+.info{
+    margin-left: 20px;
+}
+

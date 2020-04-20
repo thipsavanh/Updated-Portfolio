@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Updated - Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cinzel|Laila&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cinzel|Laila&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#" class="active">Thipsavanh Douangboupha</a>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <h2 class="name-block">Thipsavanh Douangboupha</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent" style>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Portfolio</h1>
+    </div>
   </div>
-  
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Portfolio</h1>
+
+  <div class="wholebody"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card">
+          <img src="assets/images/bookmart.png" class="card-img-top" alt="BookmartImage">
+          <div class="card-body">
+            <p class="card-text">Project 2: Bookmart</p>
+            <a href="https://evening-eyrie-42464.herokuapp.com/">Explore Bookmart</a>
+            <br>
+            <a href="https://github.com/thipsavanh/project-2">View Repository</a>
+          </div>
         </div>
       </div>
 
-      <div class="wholebody"></div>
-        <div class="container">
-            <div class="row">
-             
-                <div class="col">
-                    <div class="card col-12 col-md-6">
-                        <img src="https://raw.githubusercontent.com/thipsavanh/03PasswordGenerator/master/Screen%20Shot%20Password%20Generator.png" class="card-img-top" alt="PasswordImage">
-                      <div class="card-body">
-                        <p class="card-text">Password Generator</p>
-                        <a href="https://thipsavanh.github.io/03PasswordGenerator/">Check Out the Password Generator!</a>
-                        <br>
-                        <a href="https://github.com/thipsavanh/03PasswordGenerator">More Info</a>
-                      </div>
-                    </div>
-                </div>
-                
-                <div class="w-100"></div>
-                
-                 <div class="col">
-                    <div class="card col-12 col-md-6">
-                        <img src="https://raw.githubusercontent.com/thipsavanh/04QuizHomework/master/Screen%20Shot%202020-02-23%20at%2010.05.44%20PM.png" class="card-img-top" alt="QuizImage">
-                      <div class="card-body">
-                      <p class="card-text">Quiz</p>
-                      <a href="https://thipsavanh.github.io/04QuizHomework/">Try the Quiz!</a>
-                      <br>
-                      <a href="https://github.com/thipsavanh/04QuizHomework">More Info</a>
-                      </div>
-                    </div>
-                 </div>
-    
-              <div class="w-100"></div>
-    
-                <div class="col">
-                    <div class="card col-12 col-sm-6">
-                        <img src="https://raw.githubusercontent.com/thipsavanh/04QuizHomework/master/Screen%20Shot.png" class="card-img-top" alt="Image3">
-                      <div class="card-body">
-                        <p class="card-text">Project 1: Ghost App</p>
-                        <a href="https://philipwking.github.io/project-1/">View the Ghost App!</a>
-                        <br>
-                        <a href="https://github.com/philipwking/project-1">More Info</a>
-                      </div>
-                    </div>
-                </div>
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card">
+          <img src="assets/images/ghostapp.png" class="card-img-top" alt="Image3">
+          <div class="card-body">
+            <p class="card-text">Project 1: Ghost App</p>
+            <a href="https://philipwking.github.io/project-1/">View the Ghost App!</a>
+            <br>
+            <a href="https://github.com/philipwking/project-1">View Repository</a>
+          </div>
+        </div>
+      </div>
 
-              </div>
-            </div>
-           </div>
-                
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card">
+          <img src="assets/images/password.png" class="card-img-top" alt="PasswordImage">
+          <div class="card-body">
+            <p class="card-text">Password Generator</p>
+            <a href="https://thipsavanh.github.io/03PasswordGenerator/">Check Out the Password Generator!</a>
+            <br>
+            <a href="https://github.com/thipsavanh/03PasswordGenerator">View Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card">
+          <img src="assets/images/quiz.png" class="card-img-top" alt="QuizImage">
+          <div class="card-body">
+            <p class="card-text">Quiz</p>
+            <a href="https://thipsavanh.github.io/04QuizHomework/">Try the Quiz!</a>
+            <br>
+            <a href="https://github.com/thipsavanh/04QuizHomework">View Repository</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
   <footer class="footer"></footer>
 </body>
-<script src="script.js"></script>
+
 
 </html>

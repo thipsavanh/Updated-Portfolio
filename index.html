@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Updated Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cinzel|Laila&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cinzel|Laila&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#" class="active">Thipsavanh Douangboupha</a>
-    <a href="index.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <h2 class="name-block">Thipsavanh Douangboupha</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarSupportedContent" style>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">About Me</h1>
-        </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">About Me</h1>
     </div>
+  </div>
 
   <div class="wholebody">
     <div class="container">
-        <div class="row">
-            
-            <div class="col-sm">
-                <img src="assets/images/biophoto.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-                  
-            <div class="col-sm">
-                Hello! I am currently a student in The Coding Bootcamp at UT. As someone with no prior background in software development, I have gained a great deal of knowledge over the last eight weeks of the course.
-                <br><br>
-                You can take a look at a few examples of my work in my Portfolio section. As the course progresses, I will continue to add more of my work.
-                <br><br>
-                For more information about me, the contact section contains links to my LinkedIn profile, GitHub page, resume, and email.
-            </div>
+      <div class="row">
 
+        <div class="col-sm">
+          <img src="assets/images/biophoto.jpg" class="img-fluid" alt="Responsive image">
         </div>
-     </div>
+
+        <div class="col-sm">
+          Hello! I am currently a student in The Coding Bootcamp at UT. As someone with no prior background in software
+          development, I have gained a great deal of knowledge over the last four months of the course. I have learned
+          HTML, CSS, and Javascript for frontend development and I have learned Express and node.js for backend
+          development.
+          <br><br>
+          You can take a look at a few examples of my work in my Portfolio section. The first two showcase group
+          projects. The second project was especially challenging as everything was done virtually with regards to
+          communicating with my teammates and outlining the direction of the MVP of our project. As the course continues
+          to progress, I will continue to add more of my work.
+          <br><br>
+          For more information about me, you can browse the contact page which contains links to my LinkedIn profile,
+          GitHub page, resume, and email.
+        </div>
+
+      </div>
+    </div>
   </div>
-    
-    
+
+
   <footer class="footer"></footer>
 </body>
-<script src="script.js"></script>
+
 
 
 </html>
